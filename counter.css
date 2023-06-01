@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: 'Roboto', sans-serif;
+	background: 
+		url('https://th.bing.com/th/id/R.d39f98ab608f626d0bb57d061a27f9dc?rik=lRsB58NLNd%2fj2Q&riu=http%3a%2f%2fwww.tapetus.pl%2fobrazki%2fn%2f95227_kobieta-mocny-szatynka-makijaz.jpg&ehk=Gwd%2fhmztPTFVcr3SkOSpEakjZufd2pDajys7wyvdeTU%3d&risl=&pid=ImgRaw&r=0');
+	background-size: cover;
+	background-repeat: no-repeat;
+	color: #fff;
+	/* Push to bottom */
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-end;
+	height: 100vh;
+}
+
+.container {
+	max-width: 1100px;
+	margin: 0 auto;
+	overflow: auto;
+}
+
+header {
+	 flex: 1; 
+	height: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+header h1 {
+	font-size: 60px;
+}
+
+.counters {
+	background: #0f479a;
+	color: #fff;
+	padding: 40px 20px;
+	border-top: 3px lightskyblue solid;
+}
+
+.counters .container {
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	grid-gap: 30px;
+	text-align: center;
+}
+
+.counters i {
+	color: lightskyblue;
+	margin-bottom: 5px;
+}
+
+.counters .counter {
+	font-size: 45px;
+	margin: 10px 0;
+}
+
+
